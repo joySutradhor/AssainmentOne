@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-section {
+    background-image: url("images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    position: relative;
+}
+
+.inner-section {
+    text-align: right;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+.inner-section>h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: right;
+    color: #151414;
+}
+.inner-section>p{
+    margin: 15px 0px 25px 0px;
+}
+.inner-section>.btn-primary{
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+}
+.picture-text{
+    height: 600px;
+    
+}
+.image>img{
+    height: 500px;
+}
+.picture-text{
+    display: flex;
+}
+.image{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 35px;
+    /* background-color: aquamarine; */
+}
+.text{
+    width: 380px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.text>para{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.fa-check{
+    color: #16D887;
+    margin-right: 5px;
+}
+.text p{
+    margin-top: 8px;
+}
+.text h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.plans{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.carrier-section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.icons{
+    height: 60px;
+    margin-bottom: 15px;
+}
+.carrier-section p{
+    color: #312c2c;
+}
+.motivate{
+    background-image: url("images/gradient1.png");
+    height: 150px;
+    width: 60%;
+    margin-left: 220px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.motivate>h3{
+    padding: 40px 0px 15px 40px;
+}
+.motivate button{
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    display: flex;
+    background-color: #151414;
+    height: 350px;
+    margin-top: 50px;
+}
+.future{
+    width: 30%;
+    padding: 50px;
+    color: white;
+    margin-left: 160px;
+}
+.future .footer-para{
+    margin:15px 0px;
+}
+.future .tel{
+    margin-bottom: 20px;
+}
+.future>p{
+    color:#dddddd;
+    line-height: 25px;  
+}
+.future>img{
+    margin-right: 10px;
+    height: 40px;
+}
+.subscribe{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.subscribe p{
+    color: white;
+    margin-bottom: 20px;
+}
+.subscribe input[type="text"] {
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #151414;
+    border: 1px solid white;
+}
+.subscribe button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
